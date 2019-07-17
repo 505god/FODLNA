@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/505god/FODLNA.git" }
-  s.source_files  = 'FODLNA/Classes/*.{h,m}'
+  s.source_files  = 'FODLNA/Classes/CocoaAsyncSocket/*.{h,m},FODLNA/Classes/UPnP/*.{h,m}, FODLNA/Classes/GData/*.{h,m}'
   s.requires_arc = true
-
+  s.libraries = 'libxml2'
 end
