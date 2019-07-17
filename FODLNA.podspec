@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "qcx" => "18915410342@126.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/505god/FODLNA.git" :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/505god/FODLNA.git" :tag => "v1.1" }
   s.source_files  = 'FODLNA/Classes/**/*.{h,m}'
   s.requires_arc = true
   s.library = 'libxml2'
